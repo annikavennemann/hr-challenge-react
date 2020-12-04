@@ -1,4 +1,6 @@
 # HR-Challenge-react
 
 ## Setup
-- `$ npx create-react-app .`
+- create react-app
+- npm install styled-components
+- npm install prop-types
