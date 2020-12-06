@@ -8,7 +8,7 @@ import westworld from '../images/westworld.png'
 import globe from '../images/globe.png'
 import encom from '../images/encom.png'
 
-export default function BrandsList() {
+export default function BrandsOverview() {
     return (
         <List>
             <li>
@@ -78,7 +78,7 @@ const BrandLogo = styled.div`
     height: 500vh;
     max-width: 30vh;
     max-height: 30vh;
-    border: 1px solid #707070;
+    border: 1px solid #C4C4C4;
     background-color: white;
 
     img {
@@ -97,7 +97,7 @@ const BrandSelected = styled.div`
     height: 500vh;
     max-width: 30vh;
     max-height: 30vh;
-    border: 1px solid #707070;
+    border: 1px solid #C4C4C4;
     background-image: url(${backgroundBlur});
     background-repeat: no-repeat;
     background-position: center;

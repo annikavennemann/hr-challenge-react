@@ -11,7 +11,7 @@ export default function Logo() {
 
 const LogoStyled = styled.div`
     grid-area: logo;
-    border: 0.5pt solid #7F8FA4;
+    border: 0.5pt solid #C4C4C4;
 
     img {
         display: block;

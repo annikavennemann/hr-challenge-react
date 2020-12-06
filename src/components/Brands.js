@@ -1,12 +1,13 @@
 import styled from 'styled-components/macro'
-import BrandsHeader from './BrandsHeader'
-import BrandsList from './BrandsList'
+import BrandSearch from './BrandSearch'
+import BrandsOverview from './BrandsOverview'
 
 export default function Brands() {
+    
     return (
         <Wrapper>
-           <BrandsHeader />
-           <BrandsList />
+            <BrandSearch />
+            <BrandsOverview />
         </Wrapper>
     )
 }

@@ -7,11 +7,12 @@ export default createGlobalStyle`
         font-family: 'Roboto', sans-serif;
     }
 
-    input[type=search] {
-        padding: 1em 25em 1em 2em ;
+    input[type=text] {
+        padding: 0 15em 0 2em ;
+        background: transparent;
         font-family: 'Roboto', sans-serif;
+        font-size: 16px;
         border: none;
-        background: #F5F6FA;
     }
 `
 
