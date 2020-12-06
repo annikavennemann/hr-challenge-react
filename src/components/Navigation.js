@@ -43,7 +43,7 @@ export default function Navigation() {
 
 const NavStyled = styled.nav`
     grid-area: nav;
-    border-right: 0.5pt solid #7F8FA4;
+    border-right: 0.5pt solid #C4C4C4;
     padding-top: 2.5em;
 
     div {

@@ -1,0 +1,48 @@
+{
+    "brands": [
+        { 
+            "id": "1",
+            "name":"McDowell's",
+            "rating": "4.5",
+            "newReviews": "48"
+        },
+        {
+            "id": "2",
+            "name":"oddish",
+            "rating": "2",
+            "newReviews": "12"
+        },
+        {
+            "id": "3",
+            "name":"Duff",
+            "rating": "4.5",
+            "newReviews": "36"
+        },
+        {
+            "id": "4",
+            "name":"Umbrella Corporation",
+            "rating": "5",
+            "newReviews": "20"
+        },
+        {
+            "id": "5",
+            "name":"Westworld",
+            "rating": "4.5",
+            "newReviews": "71"
+        },
+        {
+            "id": "6",
+            "name": "Globe",
+            "rating": "3.5",
+            "newReviews": "12"
+        },
+        {
+            "id": "7",
+            "name":"Encom",
+            "rating": "2",
+            "newReviews": "13"
+        }
+    ]
+}
+
+  

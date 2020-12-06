@@ -11,7 +11,7 @@ export default function Headline() {
 const HeadlineStyled = styled.div`
     grid-area: headline;
     background-color: #F9FAFC;
-    border-bottom: 0.5pt solid #7F8FA4;
+    border-bottom: 0.5pt solid #C4C4C4;
     color: #012E40;
 
     h3 {
