@@ -30,5 +30,3 @@
 
 - The page will reload if you make edits.
 - You would also see any lint errors in the console (though I hope that there will be none).
-
-
