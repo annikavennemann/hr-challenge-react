@@ -194,7 +194,7 @@ const List = styled.ul`
 
     p {
         margin: 0;
-        padding: 0.5em 0;
+        padding: 0.5em;
         font-size: 18px;
         font-weight: 500;
         color: #012E40;
