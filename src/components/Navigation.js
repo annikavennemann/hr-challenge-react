@@ -1,12 +1,12 @@
 import styled from 'styled-components/macro'
-import homeIcon from '../images/home.svg'
-import listIcon from '../images/list.svg'
-import chartPieIcon from '../images/chartPie.svg'
-import lightBulbIcon from '../images/lightbulb.svg'
-import accountIcon from '../images/account.svg'
-import userIcon from '../images/user.svg'
-import arrow from '../images/arrow.svg'
-import arrowOrange from '../images/arrowOrange.svg'
+import homeIcon from '../images/icon/home.svg'
+import listIcon from '../images/icon/list.svg'
+import chartPieIcon from '../images/icon/chartPie.svg'
+import lightBulbIcon from '../images/icon/lightbulb.svg'
+import accountIcon from '../images/icon/account.svg'
+import userIcon from '../images/icon/user.svg'
+import arrow from '../images/icon/arrow.svg'
+import arrowOrange from '../images/icon/arrowOrange.svg'
 
 export default function Navigation() {
     return (

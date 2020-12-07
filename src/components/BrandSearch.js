@@ -1,8 +1,8 @@
 import styled from 'styled-components/macro'
-import arrow from '../images/arrow.svg'
-import menuIcon from '../images/menu.svg'
-import quaderIcon from '../images/quader.svg'
-import searchIcon from '../images/search.svg'
+import arrow from '../images/icon/arrow.svg'
+import menuIcon from '../images/icon/menu.svg'
+import quaderIcon from '../images/icon/quader.svg'
+import searchIcon from '../images/icon/search.svg'
 import { useEffect, useState } from 'react'
 import getBrands from '../service/getBrands'
 import saveLocally from '../lib/saveLocally'
@@ -12,6 +12,7 @@ export default function BrandSearch() {
 
     const [brand, setBrand] = useState(loadLocally('brand') ?? [{
         id: null,
+        logo: '',
         name: '',
         img: '',
         rating: null,
@@ -56,10 +57,15 @@ export default function BrandSearch() {
                     return (
                         <li key={brand.name}>
                             <h3>{brand.name}</h3>
-                                <h4>Rating:</h4>
-                                <p>{brand.rating} / 5</p>
-                            <h4>New Reviews:</h4>
-                            <p>{brand.newReviews}</p>
+                                <img src={process.env.PUBLIC_URL + "/assets/brandLogos/" + brand.logo} alt=""/>
+                                <div>
+                                    <p>Rating:</p>
+                                    <p>{brand.rating} / 5</p>
+                                </div>
+                                <div>
+                                    <p>New Reviews:</p>
+                                    <p>{brand.newReviews}</p>
+                                </div>
                         </li>
                     )
                 } return null
@@ -159,7 +165,8 @@ const List = styled.ul`
     padding: 0 1em 0 1.5em ;
 
     li {
-        display: inline;
+        display: block;
+        text-align: center;
         margin: 1.5em;
         width: 5000vh;
         height: 500vh;
@@ -167,7 +174,6 @@ const List = styled.ul`
         max-height: 30vh;
         border: 1px solid #C4C4C4;
         background-color: white;
-        text-align: center
     }
 
     h3 {
@@ -175,16 +181,22 @@ const List = styled.ul`
         font-size: 24px; 
     }
 
-    h4 {
-        margin-bottom: 0.5em;
-        font-size: 20px;
-        color: #012E40;
-        font-weight: 300;
+    img {
+        width: 30%;
+        height: 30%
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        margin: 0.7em 0;
     }
 
     p {
+        margin: 0;
+        padding: 0.5em 0;
         font-size: 18px;
+        font-weight: 500;
         color: #012E40;
-        font-weight: 300;
     }
 `

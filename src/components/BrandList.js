@@ -1,14 +1,17 @@
 import styled from 'styled-components/macro'
-import backgroundBlur from '../images/blur.png'
-import mcDowells from '../images/mcDowells.png'
-import oddish from '../images/oddish.png'
-import duff from '../images/duff.png'
-import umbrella from '../images/umbrella.png'
-import westworld from '../images/westworld.png'
-import globe from '../images/globe.png'
-import encom from '../images/encom.png'
+import backgroundBlur from '../images/brandLogos/blur.png'
 
-export default function BrandsOverview() {
+export default function BrandList() {
+    const brands = [
+        'mcDowells',
+        'oddish',
+        'duff',
+        'umbrella',
+        'westworld',
+        'globe',
+        'encom'
+    ];
+    
     return (
         <List>
             <li>
@@ -20,41 +23,13 @@ export default function BrandsOverview() {
                     <Button>Product Catalog</Button>
                 </BrandSelected>
             </li>
-            <li>
-                <BrandLogo>
-                    <img src={mcDowells} alt="" />
-                </BrandLogo>
-            </li>
-            <li>
-                <BrandLogo>
-                    <img src={oddish} alt="" />
-                </BrandLogo>
-            </li>
-            <li>
-                <BrandLogo>
-                    <img src={duff} alt="" />
-                </BrandLogo>
-            </li>
-            <li>
-                <BrandLogo>
-                    <img src={umbrella} alt="" />
-                </BrandLogo>
-            </li>
-            <li>
-                <BrandLogo>
-                    <img src={westworld} alt="" />
-                </BrandLogo>
-            </li>
-            <li>
-                <BrandLogo>
-                    <img src={globe} alt="" />
-                </BrandLogo>
-            </li>
-            <li>
-                <BrandLogo>
-                    <img src={encom} alt="" />
-                </BrandLogo>
-            </li>
+            {brands.map(brand => (
+                <li>
+                    <BrandLogo>
+                        <img src={process.env.PUBLIC_URL + "/assets/brandLogos/" + brand + ".png"} alt="logo" />
+                    </BrandLogo>
+                </li>
+            ))}
         </List>
     )
 }

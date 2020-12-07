@@ -9,10 +9,19 @@
 
 - For styling I used styled-components
 
+## Server
+- For mocking the clients data into a JSON I installed the JSON-Dev-dependencies: <br>`npm install -D json-server`
+- The data is saved in the db.json file and listen on port 4000 (configured in package.json)
+
 
 ## How to run the Scripts
-In the project directory, you can run:
 
+- To start the server, you can run in the project directory: 
+
+### `npm run fake-api`
+
+
+- In the project directory, you can run:
 
 ### `npm start`
 
@@ -22,10 +31,4 @@ In the project directory, you can run:
 - The page will reload if you make edits.
 - You would also see any lint errors in the console (though I hope that there will be none).
 
-## Server
-- For mocking the clients data into a JSON I installed the JSON-Dev-dependencies: <br>`npm install -D json-server`
-- The data is saved in the db.json file and listen on port 4000 (configured in package.json)
 
-- To start the server, you can run in the project directory: 
-
-### `npm run fake-api`

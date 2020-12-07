@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro'
-import alert from '../images/alert.svg'
+import alert from '../images/icon/alert.svg'
 import profilePicture from '../images/jeffBezos.png'
 
 export default function Header() {
