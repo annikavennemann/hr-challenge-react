@@ -2,42 +2,49 @@
     "brands": [
         { 
             "id": "1",
+            "logo": "mcDowells.png",
             "name":"McDowell's",
             "rating": "4.5",
             "newReviews": "48"
         },
         {
             "id": "2",
+            "logo": "oddish.png",
             "name":"oddish",
             "rating": "2",
             "newReviews": "12"
         },
         {
             "id": "3",
+            "logo": "duff.png",
             "name":"Duff",
             "rating": "4.5",
             "newReviews": "36"
         },
         {
             "id": "4",
+            "logo": "umbrella.png",
             "name":"Umbrella Corporation",
             "rating": "5",
             "newReviews": "20"
         },
         {
             "id": "5",
+            "logo": "westworld.png",
             "name":"Westworld",
             "rating": "4.5",
             "newReviews": "71"
         },
         {
             "id": "6",
+            "logo": "globe.png",
             "name": "Globe",
             "rating": "3.5",
             "newReviews": "12"
         },
         {
             "id": "7",
+            "logo": "encom.png",
             "name":"Encom",
             "rating": "2",
             "newReviews": "13"

@@ -1,13 +1,13 @@
 import styled from 'styled-components/macro'
 import BrandSearch from './BrandSearch'
-import BrandsOverview from './BrandsOverview'
+import BrandList from './BrandList'
 
 export default function Brands() {
     
     return (
         <Wrapper>
             <BrandSearch />
-            <BrandsOverview />
+            <BrandList />
         </Wrapper>
     )
 }
